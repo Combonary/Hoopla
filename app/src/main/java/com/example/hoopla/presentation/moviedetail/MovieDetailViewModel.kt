@@ -38,7 +38,7 @@ class MovieDetailViewModel @AssistedInject constructor(
 
     private suspend fun loadMovie(titleId: Int) {
         _isLoading.value = true
-        val result = moviesRepository.getMovie(titleId)
+        val result = moviesRepository.getMovieDetail(titleId)
         if (result.status == ServerResult.Status.SUCCESS) {
             _isLoading.value = false
             result.data.let { _movie.value = it }

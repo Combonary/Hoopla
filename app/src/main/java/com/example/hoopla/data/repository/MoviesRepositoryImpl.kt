@@ -25,7 +25,7 @@ class MoviesRepositoryImpl @Inject constructor(
      * returns the details of a movie with the specified id
      * @param id titleId of movie
      */
-    override suspend fun getMovie(id: Int): ServerResult<MovieDetail> {
+    override suspend fun getMovieDetail(id: Int): ServerResult<MovieDetail> {
         return moviesApi.getMovie(id)
     }
 }

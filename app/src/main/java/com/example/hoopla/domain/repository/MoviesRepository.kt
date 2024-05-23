@@ -8,5 +8,5 @@ interface MoviesRepository {
 
     suspend fun getMovies(): ServerResult<MovieResponse>
 
-    suspend fun getMovie(id: Int): ServerResult<MovieDetail>
+    suspend fun getMovieDetail(id: Int): ServerResult<MovieDetail>
 }
