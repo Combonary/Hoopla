@@ -1,5 +1,8 @@
 package com.example.hoopla.domain.model
 
+/**
+ * server result class to model web response from server
+ */
 data class ServerResult<out T> (
     var status: Status,
     val data: T?,
