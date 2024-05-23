@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Hoopla</string>
+    <string name="placeholder_text">Krishna</string>
+    <string name="image_content_description_text">image</string>
+    <string name="play_button_text">Play</string>
+    <string name="play_button_toast_text">Start watching {placeholder}</string>
+
+    <string name="genres_text">GENRES: {placeholder}</string>
+    <string name="cast_text">CAST: {placeholder}</string>
+    <string name="error_loading_data_text">Error loading data, please try again later</string>
 </resources>
